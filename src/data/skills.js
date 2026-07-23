@@ -24,6 +24,12 @@ export const skills = [
         level: 'Intermediate'
     },
     {
+        id: 6,
+        name: 'SUPABASE API',
+        icon: 'Database',
+        level: 'Intermediate'
+    },
+    {
         id: 7,
         name: 'MongoDB',
         icon: 'Database',

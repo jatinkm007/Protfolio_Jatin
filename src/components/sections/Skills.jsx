@@ -19,6 +19,7 @@ const Skills = () => {
         'Backend & APIs': [
             skills.find(s => s.name === 'Node.js'),
             skills.find(s => s.name === 'REST APIs'),
+            skills.find(s => s.name === 'SUPABASE API'),
         ].filter(Boolean),
 
         'Tools & Others': [

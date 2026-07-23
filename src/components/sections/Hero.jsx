@@ -27,13 +27,13 @@ const Hero = () => {
 
             <FadeIn delay={100}>
               <h1 className='text-4xl md:text-5xl lg:text-5xl font-normal text-white mb-6 leading-tight'>
-                Building Modern Web
-                Experiences with React
+                Hi, I'm Jatin Kumar Mishra
               </h1>
             </FadeIn>
 
             <FadeIn delay={200}>
               <p className='text-lg text-white/70 max-w-[550px] mb-8'>
+                MERN Stack Developer passionate about building responsive, scalable, and user-focused web applications.
                 Full-stack developer specializing in the MERN stack — building fast, scalable, and user-friendly web applications from frontend to backend.</p>
             </FadeIn>
 

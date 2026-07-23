@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Download, Code2, Sparkles } from 'lucide-react';
-import { SiReact, SiExpress, SiTailwindcss, SiJavascript, SiNodedotjs, SiMongodb } from 'react-icons/si';
+import { SiReact, SiExpress, SiTailwindcss, SiJavascript, SiNodedotjs, SiMongodb, SiSupabase  } from 'react-icons/si';
 import { PERSONAL_INFO, ABOUT_STATS } from '../../utils/constants';
 import { scrollToSection } from '../../hooks/useScrollSpy';
 import FadeIn from '../animations/FadeIn';
@@ -17,6 +17,7 @@ const About = () => {
         { name: 'Node.js', icon: SiNodedotjs, color: '#339933' },
         { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#06B6D4' },
         { name: 'JavaScript', icon: SiJavascript, color: '#3178C6' },
+        { name: 'Supabase', icon: SiSupabase , color: '#3178C6' },
     ];
 
     return (
@@ -124,16 +125,16 @@ const About = () => {
                                 <div className="relative bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-primary/30 transition-all duration-300 h-full">
                                     <div className="grid grid-cols-3 gap-6 text-center">
                                         <div>
-                                            <div className="text-2xl font-bold text-primary mb-1">100%</div>
-                                            <div className="text-sm text-white/60">Clean & Clear Code</div>
+                                            <div className="text-2xl font-bold text-primary mb-1">React</div>
+                                            <div className="text-sm text-white/60">Frontend Development</div>
                                         </div>
                                         <div>
-                                            <div className="text-2xl font-bold text-primary mb-1">24/7</div>
-                                            <div className="text-sm text-white/60">Support Available</div>
+                                            <div className="text-2xl font-bold text-primary mb-1">Node.js</div>
+                                            <div className="text-sm text-white/60">Backend Development</div>
                                         </div>
                                         <div>
-                                            <div className="text-2xl font-bold text-primary mb-1">Fast</div>
-                                            <div className="text-sm text-white/60">Response Time</div>
+                                            <div className="text-2xl font-bold text-primary mb-1">MongoDB</div>
+                                            <div className="text-sm text-white/60">Database Management</div>
                                         </div>
                                     </div>
                                 </div>
@@ -155,7 +156,7 @@ const About = () => {
                             </p>
                         </div>
 
-                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 w-full max-w-4xl">
+                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-4 w-full max-w-5xl">
                             {skills.map((skill, index) => (
                                 <div
                                     key={index}
