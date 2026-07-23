@@ -6,16 +6,6 @@ A modern and responsive developer portfolio built using **React**, **Vite**, and
 
 🔗 **Portfolio:** https://protfolio-jatin.vercel.app/
 
-## 📸 Preview
-
-> Add a screenshot of your portfolio here.
-
-Example:
-
-![Portfolio Preview](./public/preview.png)
-
----
-
 ## ✨ Features
 
 - Responsive design for all devices
